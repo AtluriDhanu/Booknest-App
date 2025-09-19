@@ -19,5 +19,5 @@ A simple Spring Boot and JSP based Book Store Management Application. It allows 
 - Build the project with Maven.
 - Run the Sprig Boot Application.
 - Access the application in browser
-
+    http://localhost:8080/
 
