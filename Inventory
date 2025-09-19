@@ -7,18 +7,20 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="purchase")
-public class Purchase {
+@Table (name="inventory") 
 
+public class Inventory {
+	
 	@Id
 	@GeneratedValue (strategy=GenerationType.IDENTITY)
+	
 	private long id;
-	private String name;
-	private int age;
-	private String book_name;
+	private String title;
+	private String author_name;
+	private String genre;
 	private int price;
-	private String buying_date;
-	private long mobile;
+	private int stock_availability;
+	private String published_date;
 	
 	public long getId() {
 		return id;
@@ -26,23 +28,23 @@ public class Purchase {
 	public void setId(long id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
-	public int getAge() {
-		return age;
+	public String getAuthor_name() {
+		return author_name;
 	}
-	public void setAge(int age) {
-		this.age = age;
+	public void setAuthor_name(String author_name) {
+		this.author_name = author_name;
 	}
-	public String getBook_name() {
-		return book_name;
+	public String getGenre() {
+		return genre;
 	}
-	public void setBook_name(String book_name) {
-		this.book_name = book_name;
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 	public int getPrice() {
 		return price;
@@ -50,16 +52,16 @@ public class Purchase {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public String getBuying_date() {
-		return buying_date;
+	public int getStock_availability() {
+		return stock_availability;
 	}
-	public void setBuying_date(String buying_date) {
-		this.buying_date = buying_date;
+	public void setStock_availability(int stock_availability) {
+		this.stock_availability = stock_availability;
 	}
-	public long getMobile() {
-		return mobile;
+	public String getPublished_date() {
+		return published_date;
 	}
-	public void setMobile(long mobile) {
-		this.mobile = mobile;
+	public void setPublished_date(String published_date) {
+		this.published_date = published_date;
 	}
 }
