@@ -7,3 +7,4 @@ import com.booknest_app.entity.Purchase;
 public interface PurchaseRepository extends JpaRepository<Purchase, Long> {
 
 }
+
