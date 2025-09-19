@@ -7,3 +7,4 @@ import com.booknest_app.entity.Inventory;
 public interface InventoryRepository extends JpaRepository<Inventory, Long> {
 
 }
+
