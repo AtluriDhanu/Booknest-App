@@ -1,5 +1,6 @@
 # Booknest-App
-A simple Spring Boot and JSP based Book Store Management Application. It allows users to manage Books Inventory and Customer Purchases with CRUD Operations.
+A simple Spring Boot and JSP-based web application designed for bookstore management. It provides functionality to manage both Books Inventory and Customer Purchases efficiently.
+Users can perform full CRUD operations including adding, viewing and deleting records.
 
 ## Features
 - Inventory Management - Add new books, View list of available books, Delete books from inventory.
